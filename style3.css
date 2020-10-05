@@ -1,0 +1,30 @@
+
+.back-image
+{
+  background-image: url("back-6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:1200px;
+}
+.container
+{
+  padding : 70px;
+}
+.row{
+  padding: 10px;
+}
+h1
+{
+  font-family: comic sans cursive;
+  text-align: center;
+  color:#00638a;
+}
+.col-lg-4.col-sm-6  h3{
+      font-family: sans-serif;
+		    text-align: center;
+        color: #f2493d;
+    }
+.col-lg-4.col-sm-6 img{
+    border:2px solid black;
+  }

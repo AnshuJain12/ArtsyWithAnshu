@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Artsy With Anshu!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .side {
+    flex: 20%;
+    background-image:url("back-6.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #f0d3f0;
+    padding: 20px;
+  }
+  .main {
+    flex: 70%;
+    background-image:url("back-6.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #f0d3f0;
+    padding: 20px;
+  }
+
+  .fakeimg {
+    width: 70%;
+    padding: 10px;
+  }
+  @media screen and (max-width: 700px) {
+.row {
+  flex-direction: column;
+}
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="artpage.html">ARTSY WITH ANSHU</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link" href="artpage.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bio.html">Forms of Art<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="works.html">My Works<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="artists.html">Artists<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contacts.html">Contact Me<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">
+      <img src="anshu.jpg" width=70%>
+    </div>
+    <h3>Contact Details</h3>
+    <p>Name : <b>Anshu Jain</b></p>
+    <p>Contact No : <b> 9876123887</b></p>
+    <p>E-mail address: <b>artsywithanshu@gmail.com</b></p>
+  </div>
+  <div class="main">
+    <h2>My Works in One Frame</h2>
+    <div class="fakeimg" style="height:500px;">
+        <img src="d13.jpg" width=70%>
+    </div>
+    <h3>“Art enables us to find ourselves and lose ourselves at the same time.”</h3>
+  </div>
+</div>
+
+</body>
+</html>

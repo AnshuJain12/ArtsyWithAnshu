@@ -1,0 +1,74 @@
+.back{
+  background-image: url("paint-1.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+}
+.box {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  width: 500px;
+  height: 500px;
+  padding: 20px 30px;
+  border: 1px;
+  border-style: solid;
+  background-image:url("paint-1.jpg");
+  box-shadow:20px 20px 50px 10px  #d4beb2 inset;
+}
+
+.box>h1{
+  color: #f02e31;
+  font-family:Comic Sans;
+  text-align: center;
+}
+
+.box p{
+  padding-top: 5px;
+  color: black;
+  font-family:Candara;
+  font-size: 17px;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.back-image
+{
+  background-image: url("back-6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:2200px;
+}
+
+.back-image img{
+   border: 5px solid #555;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-image h1{
+  padding: 70px 10px;
+  font-family: sans-serif;
+}
+.back-image p{
+  color:black;
+  font-size: 17px;
+}
+
+.inner li{
+  font-size:25px;
+}
+.inner li a:hover {
+  background-color: #e88931;
+  color: white;
+}
+p::selection {
+     color: #f02e31;
+     background-color: black;
+ }
